@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		659379FC18BBE1C700D57E14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659379FB18BBE1C700D57E14 /* Cocoa.framework */; };
+		659379FE18BBE1C700D57E14 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659379FD18BBE1C700D57E14 /* AppleScriptObjC.framework */; };
+		65937A0818BBE1C700D57E14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65937A0618BBE1C700D57E14 /* InfoPlist.strings */; };
+		65937A0A18BBE1C700D57E14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65937A0918BBE1C700D57E14 /* main.m */; };
+		65937A0E18BBE1C700D57E14 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65937A0C18BBE1C700D57E14 /* Credits.rtf */; };
+		65937A1018BBE1C700D57E14 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 65937A0F18BBE1C700D57E14 /* AppDelegate.applescript */; };
+		65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1118BBE1C700D57E14 /* MainMenu.xib */; };
+		65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1418BBE1C700D57E14 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		659379F818BBE1C700D57E14 /* business-impact-map-assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "business-impact-map-assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		659379FB18BBE1C700D57E14 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		659379FD18BBE1C700D57E14 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		65937A0018BBE1C700D57E14 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		65937A0118BBE1C700D57E14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		65937A0218BBE1C700D57E14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65937A0518BBE1C700D57E14 /* business-impact-map-assistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "business-impact-map-assistant-Info.plist"; sourceTree = "<group>"; };
+		65937A0718BBE1C700D57E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65937A0918BBE1C700D57E14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65937A0B18BBE1C700D57E14 /* business-impact-map-assistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "business-impact-map-assistant-Prefix.pch"; sourceTree = "<group>"; };
+		65937A0D18BBE1C700D57E14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		65937A0F18BBE1C700D57E14 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		65937A1218BBE1C700D57E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65937A1418BBE1C700D57E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		659379F518BBE1C700D57E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659379FE18BBE1C700D57E14 /* AppleScriptObjC.framework in Frameworks */,
+				659379FC18BBE1C700D57E14 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		659379EF18BBE1C700D57E14 = {
+			isa = PBXGroup;
+			children = (
+				65937A0318BBE1C700D57E14 /* business-impact-map-assistant */,
+				659379FA18BBE1C700D57E14 /* Frameworks */,
+				659379F918BBE1C700D57E14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		659379F918BBE1C700D57E14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				659379F818BBE1C700D57E14 /* business-impact-map-assistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		659379FA18BBE1C700D57E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659379FB18BBE1C700D57E14 /* Cocoa.framework */,
+				659379FD18BBE1C700D57E14 /* AppleScriptObjC.framework */,
+				659379FF18BBE1C700D57E14 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		659379FF18BBE1C700D57E14 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65937A0018BBE1C700D57E14 /* AppKit.framework */,
+				65937A0118BBE1C700D57E14 /* CoreData.framework */,
+				65937A0218BBE1C700D57E14 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		65937A0318BBE1C700D57E14 /* business-impact-map-assistant */ = {
+			isa = PBXGroup;
+			children = (
+				65937A0F18BBE1C700D57E14 /* AppDelegate.applescript */,
+				65937A1118BBE1C700D57E14 /* MainMenu.xib */,
+				65937A1418BBE1C700D57E14 /* Images.xcassets */,
+				65937A0418BBE1C700D57E14 /* Supporting Files */,
+			);
+			path = "business-impact-map-assistant";
+			sourceTree = "<group>";
+		};
+		65937A0418BBE1C700D57E14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65937A0518BBE1C700D57E14 /* business-impact-map-assistant-Info.plist */,
+				65937A0618BBE1C700D57E14 /* InfoPlist.strings */,
+				65937A0918BBE1C700D57E14 /* main.m */,
+				65937A0B18BBE1C700D57E14 /* business-impact-map-assistant-Prefix.pch */,
+				65937A0C18BBE1C700D57E14 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		659379F718BBE1C700D57E14 /* business-impact-map-assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65937A1818BBE1C700D57E14 /* Build configuration list for PBXNativeTarget "business-impact-map-assistant" */;
+			buildPhases = (
+				659379F418BBE1C700D57E14 /* Sources */,
+				659379F518BBE1C700D57E14 /* Frameworks */,
+				659379F618BBE1C700D57E14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "business-impact-map-assistant";
+			productName = "business-impact-map-assistant";
+			productReference = 659379F818BBE1C700D57E14 /* business-impact-map-assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		659379F018BBE1C700D57E14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Helt Enkelt AB";
+			};
+			buildConfigurationList = 659379F318BBE1C700D57E14 /* Build configuration list for PBXProject "business-impact-map-assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 659379EF18BBE1C700D57E14;
+			productRefGroup = 659379F918BBE1C700D57E14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				659379F718BBE1C700D57E14 /* business-impact-map-assistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		659379F618BBE1C700D57E14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65937A0818BBE1C700D57E14 /* InfoPlist.strings in Resources */,
+				65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */,
+				65937A0E18BBE1C700D57E14 /* Credits.rtf in Resources */,
+				65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		659379F418BBE1C700D57E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65937A1018BBE1C700D57E14 /* AppDelegate.applescript in Sources */,
+				65937A0A18BBE1C700D57E14 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65937A0618BBE1C700D57E14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65937A0718BBE1C700D57E14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65937A0C18BBE1C700D57E14 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65937A0D18BBE1C700D57E14 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		65937A1118BBE1C700D57E14 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65937A1218BBE1C700D57E14 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65937A1618BBE1C700D57E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		65937A1718BBE1C700D57E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65937A1918BBE1C700D57E14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "business-impact-map-assistant/business-impact-map-assistant-Prefix.pch";
+				INFOPLIST_FILE = "business-impact-map-assistant/business-impact-map-assistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65937A1A18BBE1C700D57E14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "business-impact-map-assistant/business-impact-map-assistant-Prefix.pch";
+				INFOPLIST_FILE = "business-impact-map-assistant/business-impact-map-assistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		659379F318BBE1C700D57E14 /* Build configuration list for PBXProject "business-impact-map-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65937A1618BBE1C700D57E14 /* Debug */,
+				65937A1718BBE1C700D57E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65937A1818BBE1C700D57E14 /* Build configuration list for PBXNativeTarget "business-impact-map-assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65937A1918BBE1C700D57E14 /* Debug */,
+				65937A1A18BBE1C700D57E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 659379F018BBE1C700D57E14 /* Project object */;
+}
