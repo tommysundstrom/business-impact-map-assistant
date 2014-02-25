@@ -32,6 +32,8 @@
 		65937A0F18BBE1C700D57E14 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		65937A1218BBE1C700D57E14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		65937A1418BBE1C700D57E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65BCF90418BCA026002180DA /* empty-impact-map.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "empty-impact-map.xlsx"; sourceTree = "<group>"; };
+		65BCF90518BCA026002180DA /* impact-map-exemple.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "impact-map-exemple.xlsx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		659379EF18BBE1C700D57E14 = {
 			isa = PBXGroup;
 			children = (
+				65BCF90318BCA026002180DA /* Resources */,
 				65937A0318BBE1C700D57E14 /* business-impact-map-assistant */,
 				659379FA18BBE1C700D57E14 /* Frameworks */,
 				659379F918BBE1C700D57E14 /* Products */,
@@ -105,6 +108,16 @@
 				65937A0C18BBE1C700D57E14 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65BCF90318BCA026002180DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65BCF90418BCA026002180DA /* empty-impact-map.xlsx */,
+				65BCF90518BCA026002180DA /* impact-map-exemple.xlsx */,
+			);
+			name = Resources;
+			path = "business-impact-map-assistant/Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,6 +334,7 @@
 				65937A1A18BBE1C700D57E14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
