@@ -103,7 +103,7 @@ script AppDelegate
                 
 
                 -- Undo selection
-                select cell "A1"
+                select cell "A1" of currentSheet
 			end tell
 		end tell
 	end generateImpactTableBy
