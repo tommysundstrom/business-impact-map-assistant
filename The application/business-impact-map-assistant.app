@@ -1,1 +1,0 @@
-/Users/Tommy/Library/Developer/Xcode/DerivedData/business-impact-map-assistant-goabailbcnhitlfdpklyunkfrybr/Build/Products/Debug/business-impact-map-assistant.app

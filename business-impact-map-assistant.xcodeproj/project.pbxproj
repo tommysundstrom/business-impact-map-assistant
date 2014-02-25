@@ -15,7 +15,7 @@
 		65937A1018BBE1C700D57E14 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 65937A0F18BBE1C700D57E14 /* AppDelegate.applescript */; };
 		65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1118BBE1C700D57E14 /* MainMenu.xib */; };
 		65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1418BBE1C700D57E14 /* Images.xcassets */; };
-		65BCF90818BCA27F002180DA /* business-impact-map-assistant.app in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90718BCA27F002180DA /* business-impact-map-assistant.app */; };
+		65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		65937A1418BBE1C700D57E14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		65BCF90418BCA026002180DA /* empty-impact-map.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "empty-impact-map.xlsx"; sourceTree = "<group>"; };
 		65BCF90518BCA026002180DA /* impact-map-exemple.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "impact-map-exemple.xlsx"; sourceTree = "<group>"; };
-		65BCF90718BCA27F002180DA /* business-impact-map-assistant.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "business-impact-map-assistant.app"; sourceTree = "<group>"; };
+		65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "business-impact-map-assistant.zip"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,7 @@
 		65BCF90618BCA27F002180DA /* The application */ = {
 			isa = PBXGroup;
 			children = (
-				65BCF90718BCA27F002180DA /* business-impact-map-assistant.app */,
+				65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */,
 			);
 			path = "The application";
 			sourceTree = "<group>";
@@ -184,10 +184,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65937A0818BBE1C700D57E14 /* InfoPlist.strings in Resources */,
+				65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */,
 				65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */,
 				65937A0E18BBE1C700D57E14 /* Credits.rtf in Resources */,
 				65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */,
-				65BCF90818BCA27F002180DA /* business-impact-map-assistant.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
