@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B4411CBF-9B35-4D02-B536-A5BFD89505C2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>business-impact-map-assistant</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B52A80D7-966D-40D8-B4DE-581B61DF50A3</key>
+		<string>ssh://github.com/tommysundstrom/business-impact-map-assistant.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>business-impact-map-assistant.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B52A80D7-966D-40D8-B4DE-581B61DF50A3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/tommysundstrom/business-impact-map-assistant.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B52A80D7-966D-40D8-B4DE-581B61DF50A3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B52A80D7-966D-40D8-B4DE-581B61DF50A3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>business-impact-map-assistant</string>
+		</dict>
+	</array>
+</dict>
+</plist>

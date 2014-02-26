@@ -16,6 +16,8 @@
 		65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1118BBE1C700D57E14 /* MainMenu.xib */; };
 		65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65937A1418BBE1C700D57E14 /* Images.xcassets */; };
 		65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */; };
+		65BCF90D18BE2CB0002180DA /* Effektkarta-master.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90B18BE2CB0002180DA /* Effektkarta-master.pdf */; };
+		65BCF90E18BE2CB0002180DA /* Effektkarta-master.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90C18BE2CB0002180DA /* Effektkarta-master.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		65BCF90418BCA026002180DA /* empty-impact-map.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "empty-impact-map.xlsx"; sourceTree = "<group>"; };
 		65BCF90518BCA026002180DA /* impact-map-exemple.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "impact-map-exemple.xlsx"; sourceTree = "<group>"; };
 		65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "business-impact-map-assistant.zip"; sourceTree = "<group>"; };
+		65BCF90B18BE2CB0002180DA /* Effektkarta-master.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Effektkarta-master.pdf"; sourceTree = "<group>"; };
+		65BCF90C18BE2CB0002180DA /* Effektkarta-master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Effektkarta-master.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 		65BCF90318BCA026002180DA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				65BCF90B18BE2CB0002180DA /* Effektkarta-master.pdf */,
+				65BCF90C18BE2CB0002180DA /* Effektkarta-master.png */,
 				65BCF90418BCA026002180DA /* empty-impact-map.xlsx */,
 				65BCF90518BCA026002180DA /* impact-map-exemple.xlsx */,
 			);
@@ -184,6 +190,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65937A0818BBE1C700D57E14 /* InfoPlist.strings in Resources */,
+				65BCF90D18BE2CB0002180DA /* Effektkarta-master.pdf in Resources */,
+				65BCF90E18BE2CB0002180DA /* Effektkarta-master.png in Resources */,
 				65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */,
 				65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */,
 				65937A0E18BBE1C700D57E14 /* Credits.rtf in Resources */,
