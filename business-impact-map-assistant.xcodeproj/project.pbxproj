@@ -18,6 +18,15 @@
 		65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */; };
 		65BCF90D18BE2CB0002180DA /* Effektkarta-master.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90B18BE2CB0002180DA /* Effektkarta-master.pdf */; };
 		65BCF90E18BE2CB0002180DA /* Effektkarta-master.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90C18BE2CB0002180DA /* Effektkarta-master.png */; };
+		65BCF91118BE7980002180DA /* Effektkartan-mindmap-oversikt.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF90F18BE7980002180DA /* Effektkartan-mindmap-oversikt.png */; };
+		65BCF91218BE7980002180DA /* Malgruppsperspektiv.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91018BE7980002180DA /* Malgruppsperspektiv.pdf */; };
+		65BCF91A18BE7C84002180DA /* Anvandningsmalsperspektiv.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91318BE7C84002180DA /* Anvandningsmalsperspektiv.pdf */; };
+		65BCF91B18BE7C84002180DA /* Anvandningsmalsperspektiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91418BE7C84002180DA /* Anvandningsmalsperspektiv.png */; };
+		65BCF91C18BE7C84002180DA /* Atgardsperspektiv.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91518BE7C84002180DA /* Atgardsperspektiv.pdf */; };
+		65BCF91D18BE7C84002180DA /* Atgardsperspektiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91618BE7C84002180DA /* Atgardsperspektiv.png */; };
+		65BCF91E18BE7C84002180DA /* Malgruppsperspektiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91718BE7C84002180DA /* Malgruppsperspektiv.png */; };
+		65BCF91F18BE7C84002180DA /* Syftesperspektiv.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91818BE7C84002180DA /* Syftesperspektiv.pdf */; };
+		65BCF92018BE7C84002180DA /* Syftesperspektiv.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF91918BE7C84002180DA /* Syftesperspektiv.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,15 @@
 		65BCF90918BCA3F1002180DA /* business-impact-map-assistant.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "business-impact-map-assistant.zip"; sourceTree = "<group>"; };
 		65BCF90B18BE2CB0002180DA /* Effektkarta-master.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Effektkarta-master.pdf"; sourceTree = "<group>"; };
 		65BCF90C18BE2CB0002180DA /* Effektkarta-master.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Effektkarta-master.png"; sourceTree = "<group>"; };
+		65BCF90F18BE7980002180DA /* Effektkartan-mindmap-oversikt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Effektkartan-mindmap-oversikt.png"; path = "business-impact-map-assistant/Resources/Effektkartan-mindmap-oversikt.png"; sourceTree = "<group>"; };
+		65BCF91018BE7980002180DA /* Malgruppsperspektiv.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Malgruppsperspektiv.pdf; path = "business-impact-map-assistant/Resources/Malgruppsperspektiv.pdf"; sourceTree = "<group>"; };
+		65BCF91318BE7C84002180DA /* Anvandningsmalsperspektiv.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Anvandningsmalsperspektiv.pdf; path = "business-impact-map-assistant/Resources/Anvandningsmalsperspektiv.pdf"; sourceTree = "<group>"; };
+		65BCF91418BE7C84002180DA /* Anvandningsmalsperspektiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Anvandningsmalsperspektiv.png; path = "business-impact-map-assistant/Resources/Anvandningsmalsperspektiv.png"; sourceTree = "<group>"; };
+		65BCF91518BE7C84002180DA /* Atgardsperspektiv.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Atgardsperspektiv.pdf; path = "business-impact-map-assistant/Resources/Atgardsperspektiv.pdf"; sourceTree = "<group>"; };
+		65BCF91618BE7C84002180DA /* Atgardsperspektiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Atgardsperspektiv.png; path = "business-impact-map-assistant/Resources/Atgardsperspektiv.png"; sourceTree = "<group>"; };
+		65BCF91718BE7C84002180DA /* Malgruppsperspektiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Malgruppsperspektiv.png; path = "business-impact-map-assistant/Resources/Malgruppsperspektiv.png"; sourceTree = "<group>"; };
+		65BCF91818BE7C84002180DA /* Syftesperspektiv.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = Syftesperspektiv.pdf; path = "business-impact-map-assistant/Resources/Syftesperspektiv.pdf"; sourceTree = "<group>"; };
+		65BCF91918BE7C84002180DA /* Syftesperspektiv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Syftesperspektiv.png; path = "business-impact-map-assistant/Resources/Syftesperspektiv.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 		659379EF18BBE1C700D57E14 = {
 			isa = PBXGroup;
 			children = (
+				65BCF91318BE7C84002180DA /* Anvandningsmalsperspektiv.pdf */,
+				65BCF91418BE7C84002180DA /* Anvandningsmalsperspektiv.png */,
+				65BCF91518BE7C84002180DA /* Atgardsperspektiv.pdf */,
+				65BCF91618BE7C84002180DA /* Atgardsperspektiv.png */,
+				65BCF91718BE7C84002180DA /* Malgruppsperspektiv.png */,
+				65BCF91818BE7C84002180DA /* Syftesperspektiv.pdf */,
+				65BCF91918BE7C84002180DA /* Syftesperspektiv.png */,
+				65BCF90F18BE7980002180DA /* Effektkartan-mindmap-oversikt.png */,
+				65BCF91018BE7980002180DA /* Malgruppsperspektiv.pdf */,
 				65BCF90618BCA27F002180DA /* The application */,
 				65BCF90318BCA026002180DA /* Resources */,
 				65937A0318BBE1C700D57E14 /* business-impact-map-assistant */,
@@ -191,9 +218,18 @@
 			files = (
 				65937A0818BBE1C700D57E14 /* InfoPlist.strings in Resources */,
 				65BCF90D18BE2CB0002180DA /* Effektkarta-master.pdf in Resources */,
+				65BCF92018BE7C84002180DA /* Syftesperspektiv.png in Resources */,
+				65BCF91A18BE7C84002180DA /* Anvandningsmalsperspektiv.pdf in Resources */,
 				65BCF90E18BE2CB0002180DA /* Effektkarta-master.png in Resources */,
+				65BCF91D18BE7C84002180DA /* Atgardsperspektiv.png in Resources */,
+				65BCF91C18BE7C84002180DA /* Atgardsperspektiv.pdf in Resources */,
+				65BCF91218BE7980002180DA /* Malgruppsperspektiv.pdf in Resources */,
+				65BCF91F18BE7C84002180DA /* Syftesperspektiv.pdf in Resources */,
+				65BCF91118BE7980002180DA /* Effektkartan-mindmap-oversikt.png in Resources */,
 				65BCF90A18BCA3F1002180DA /* business-impact-map-assistant.zip in Resources */,
 				65937A1518BBE1C700D57E14 /* Images.xcassets in Resources */,
+				65BCF91E18BE7C84002180DA /* Malgruppsperspektiv.png in Resources */,
+				65BCF91B18BE7C84002180DA /* Anvandningsmalsperspektiv.png in Resources */,
 				65937A0E18BBE1C700D57E14 /* Credits.rtf in Resources */,
 				65937A1318BBE1C700D57E14 /* MainMenu.xib in Resources */,
 			);
